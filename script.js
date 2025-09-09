@@ -45,26 +45,3 @@ function scanQRCode() {
   }
   requestAnimationFrame(scanQRCode);
 }
-
-const client_id = "26a0b6c1dd564438861726a3dc4fb46e";  // Spotify Client ID
-const redirect_uri = "https://knochi02.github.io/Hitster"; // GitHub Pages URL der Seite
-const scopes = "streaming user-read-email user-read-private user-modify-playback-state";
-
-// Spotify Login URL generieren
-function getSpotifyAuthUrl() {
-  return `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${encodeURIComponent(redirect_uri)}&scope=${encodeURIComponent(scopes)}`;
-}
-
-// Token aus URL fragment auslesen
-const hash = window.location.hash;
-if (hash) {
-  const token = new URLSearchParams(hash.replace("#", "?")).get("access_token");
-  if (token) localStorage.setItem("spotify_token", token);
-}
-
-const token = localStorage.getItem("spotify_token");
-
-// Prüfen, ob Token vorhanden ist, sonst Login weiterleiten
-if (!localStorage.getItem("spotify_token")) {
-  window.location.href = getSpotifyAuthUrl();
-}
