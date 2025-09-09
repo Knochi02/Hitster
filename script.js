@@ -1,3 +1,15 @@
+// ---------------- Token aus URL-Fragment holen und speichern ----------------
+const hash = window.location.hash;
+if (hash) {
+  const token = new URLSearchParams(hash.replace("#", "?")).get("access_token");
+  if (token) {
+    localStorage.setItem("spotify_token", token);
+    // Token aus URL entfernen, damit QR-Scanner sauber läuft
+    history.replaceState(null, null, window.location.pathname);
+  }
+}
+
+// ---------------- QR-Scanner starten ----------------
 const video = document.getElementById("camera");
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
@@ -5,17 +17,24 @@ const ctx = canvas.getContext("2d");
 // Basis-URL für Karten
 const baseUrl = "https://knochi02.github.io/Hitster/karte.html?karte=";
 
-// Kamera starten
-navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } })
-  .then(stream => {
-    video.srcObject = stream;
-    video.play();
-    requestAnimationFrame(scanQRCode);
-  })
-  .catch(err => {
-    document.body.innerHTML += `<p style="color:red">❌ Kamera-Zugriff verweigert: ${err}</p>`;
-  });
+// Prüfen, ob Token existiert
+const token = localStorage.getItem("spotify_token");
+if (!token) {
+  alert("Spotify Login erforderlich. Bitte zurück zur Login-Seite.");
+} else {
+  // Kamera starten
+  navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } })
+    .then(stream => {
+      video.srcObject = stream;
+      video.play();
+      requestAnimationFrame(scanQRCode);
+    })
+    .catch(err => {
+      document.body.innerHTML += `<p style="color:red">❌ Kamera-Zugriff verweigert: ${err}</p>`;
+    });
+}
 
+// ---------------- QR-Code Scanning ----------------
 function scanQRCode() {
   if (video.readyState === video.HAVE_ENOUGH_DATA) {
     canvas.width = video.videoWidth;
