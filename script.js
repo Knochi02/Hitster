@@ -1,28 +1,25 @@
-// ---------------- Token aus URL-Fragment holen und speichern ----------------
+// Token aus URL-Fragment holen und speichern
 const hash = window.location.hash;
 if (hash) {
   const token = new URLSearchParams(hash.replace("#", "?")).get("access_token");
   if (token) {
     localStorage.setItem("spotify_token", token);
-    // Token aus URL entfernen, damit QR-Scanner sauber läuft
-    history.replaceState(null, null, window.location.pathname);
+    history.replaceState(null, null, window.location.pathname); // URL bereinigen
   }
 }
 
-// ---------------- QR-Scanner starten ----------------
+// QR-Scanner starten
 const video = document.getElementById("camera");
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-
-// Basis-URL für Karten
 const baseUrl = "https://knochi02.github.io/Hitster/karte.html?karte=";
 
-// Prüfen, ob Token existiert
+// Token prüfen
 const token = localStorage.getItem("spotify_token");
 if (!token) {
-  alert("Spotify Login erforderlich. Bitte zurück zur Login-Seite.");
+  alert("Spotify Login erforderlich.");
+  window.location.href = "login.html";
 } else {
-  // Kamera starten
   navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } })
     .then(stream => {
       video.srcObject = stream;
@@ -34,7 +31,6 @@ if (!token) {
     });
 }
 
-// ---------------- QR-Code Scanning ----------------
 function scanQRCode() {
   if (video.readyState === video.HAVE_ENOUGH_DATA) {
     canvas.width = video.videoWidth;
@@ -46,12 +42,9 @@ function scanQRCode() {
 
     if (code) {
       const scannedValue = code.data.trim();
-
-      // ✅ Wenn QR-Code nur eine Zahl ist → baue URL zusammen
       if (/^\d+$/.test(scannedValue)) {
         window.location.href = baseUrl + scannedValue;
       } else {
-        // ✅ Wenn QR-Code schon eine URL ist → direkt weiterleiten
         try {
           const url = new URL(scannedValue);
           window.location.href = url.href;
@@ -59,7 +52,7 @@ function scanQRCode() {
           alert("Ungültiger QR-Code: " + scannedValue);
         }
       }
-      return; // Stop scanning nach Erfolg
+      return;
     }
   }
   requestAnimationFrame(scanQRCode);

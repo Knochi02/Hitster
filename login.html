@@ -10,35 +10,27 @@
   <p>Bitte melde dich bei Spotify an, um Musik abspielen zu können.</p>
   <button id="login-button">Mit Spotify einloggen</button>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-    const client_id = "26a0b6c1dd564438861726a3dc4fb46e";  
-    const redirect_uri = "https://knochi02.github.io/Hitster/index.html"; // QR-Scanner-Seite
-    const scopes = "streaming user-read-email user-read-private user-modify-playback-state";
+<script>
+  // Wenn Token schon vorhanden → direkt zum Scanner
+  const existingToken = localStorage.getItem("spotify_token");
+  if (existingToken) {
+    window.location.href = "scanner.html";
+  }
 
-    function getSpotifyAuthUrl() {
-      return `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${encodeURIComponent(redirect_uri)}&scope=${encodeURIComponent(scopes)}`;
-    }
+  // Login über Backend starten
+  document.getElementById("login-button").addEventListener("click", () => {
+    window.location.href = "https://hitster-backend.vercel.app/api/login";
+  });
 
-    document.getElementById("login-button").addEventListener("click", () => {
-      window.location.href = getSpotifyAuthUrl();
-    });
-    });
-
-    // Token aus URL fragment auslesen, falls Rückkehr von Spotify
-    const hash = window.location.hash;
-    if (hash) {
-      const token = new URLSearchParams(hash.replace("#", "?")).get("access_token");
-      if (token) {
-        localStorage.setItem("spotify_token", token);
-        window.location.href = redirect_uri; // Weiterleiten zum QR-Scanner
-      }
+  // Token aus URL-Fragment speichern (nach Redirect vom Backend)
+  const hash = window.location.hash;
+  if (hash) {
+    const token = new URLSearchParams(hash.replace("#","?")).get("access_token");
+    if (token) {
+      localStorage.setItem("spotify_token", token);
+      window.location.href = "scanner.html";
     }
-    
-    // Wenn Token schon vorhanden → direkt weiterleiten
-    if (localStorage.getItem("spotify_token")) {
-      window.location.href = redirect_uri;
-    }
-  </script>
+  }
+</script>
 </body>
 </html>
