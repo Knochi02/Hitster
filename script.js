@@ -3,7 +3,7 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
 // Basis-URL für Karten
-const baseUrl = "https://knochi02.github.io/Hitster/karte=";
+const baseUrl = "https://knochi02.github.io/Hitster/karte.html?karte=";
 
 // Kamera starten
 navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } })
