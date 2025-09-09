@@ -1,39 +1,21 @@
-// -------- Konfiguration --------
-const client_id = "26a0b6c1dd564438861726a3dc4fb46e";  // Spotify Client ID
-const redirect_uri = "https://knochi02.github.io/Hitster"; // GitHub Pages URL der Seite
-const scopes = "streaming user-read-email user-read-private user-modify-playback-state";
-
-// QR-Code Mapping (Karten-ID → Spotify URI)
+// -------- QR-Code Mapping (Karten-ID → Spotify URI) --------
 const qrToSpotify = {
   "3456": "spotify:track:6mTJK3Y2Z2G8B4zRJ7qT5Y", // Timber
   "3457": "spotify:track:4cOdK2wGLETKBW3PvgPWqT", // Beispiel
+  // weitere Karten hier einfügen
 };
 
-// -------- Karte-ID aus URL lesen --------
+// -------- Karte-ID aus URL auslesen --------
 let karteId = null;
 const params = new URLSearchParams(window.location.search);
 if (params.has("karte")) {
   karteId = params.get("karte");
 } else {
-  // Pfad-Variante: /karte=3456
   const match = window.location.pathname.match(/karte=(\d+)/);
   if (match) karteId = match[1];
 }
 
 const playButton = document.getElementById("play-button");
-
-// -------- Spotify OAuth --------
-function getSpotifyAuthUrl() {
-  return `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${encodeURIComponent(redirect_uri)}&scope=${encodeURIComponent(scopes)}`;
-}
-
-// Token aus URL fragment lesen
-const hash = window.location.hash;
-if (hash) {
-  const token = new URLSearchParams(hash.replace("#", "?")).get("access_token");
-  if (token) localStorage.setItem("spotify_token", token);
-}
-
 const token = localStorage.getItem("spotify_token");
 
 // -------- Button aktivieren oder deaktivieren --------
@@ -41,8 +23,9 @@ if (!karteId || !qrToSpotify[karteId]) {
   playButton.disabled = true;
   playButton.textContent = "Ungültige Karte";
 } else if (!token) {
-  // Wenn noch kein Token → auf Spotify Login weiterleiten
-  window.location.href = getSpotifyAuthUrl();
+  // Falls doch kein Token vorhanden, sollte der Nutzer auf index.html weitergeleitet werden
+  alert("Spotify Login erforderlich. Bitte zurück zur Startseite.");
+  playButton.disabled = true;
 } else {
   const trackUri = qrToSpotify[karteId];
 
@@ -54,9 +37,11 @@ if (!karteId || !qrToSpotify[karteId]) {
       volume: 0.8
     });
 
+    // Player bereit
     player.addListener('ready', ({ device_id }) => {
       console.log('Spotify Player bereit, Device ID:', device_id);
 
+      // Song abspielen, wenn Button geklickt wird
       playButton.addEventListener("click", () => {
         fetch(`https://api.spotify.com/v1/me/player/play?device_id=${device_id}`, {
           method: 'PUT',
@@ -65,10 +50,19 @@ if (!karteId || !qrToSpotify[karteId]) {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${token}`
           },
+        }).then(() => {
+          console.log("Song gestartet:", trackUri);
+          // Optional: Button deaktivieren, damit nicht mehrfach geklickt wird
+          playButton.disabled = true;
+          playButton.textContent = "Wird abgespielt...";
+        }).catch(err => {
+          console.error("Fehler beim Abspielen:", err);
+          alert("Fehler beim Abspielen. Stelle sicher, dass du Spotify Premium hast.");
         });
       });
     });
 
+    // Player verbinden
     player.connect();
   };
 }
