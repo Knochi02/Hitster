@@ -12,18 +12,18 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-  const client_id = "...";
-  const redirect_uri = "...";
-  const scopes = "...";
+    const client_id = "26a0b6c1dd564438861726a3dc4fb46e";  
+    const redirect_uri = "https://knochi02.github.io/Hitster/index.html"; // QR-Scanner-Seite
+    const scopes = "streaming user-read-email user-read-private user-modify-playback-state";
 
-  function getSpotifyAuthUrl() {
-    return `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${encodeURIComponent(redirect_uri)}&scope=${encodeURIComponent(scopes)}`;
-  }
+    function getSpotifyAuthUrl() {
+      return `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${encodeURIComponent(redirect_uri)}&scope=${encodeURIComponent(scopes)}`;
+    }
 
-  document.getElementById("login-button").addEventListener("click", () => {
-    window.location.href = getSpotifyAuthUrl();
-  });
-});
+    document.getElementById("login-button").addEventListener("click", () => {
+      window.location.href = getSpotifyAuthUrl();
+    });
+    });
 
     // Token aus URL fragment auslesen, falls Rückkehr von Spotify
     const hash = window.location.hash;
@@ -34,7 +34,7 @@
         window.location.href = redirect_uri; // Weiterleiten zum QR-Scanner
       }
     }
-
+    
     // Wenn Token schon vorhanden → direkt weiterleiten
     if (localStorage.getItem("spotify_token")) {
       window.location.href = redirect_uri;
