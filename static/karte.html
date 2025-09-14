@@ -10,7 +10,11 @@
   <h1>Hitster Player</h1>
   <p>Drücke Play, um den Song abzuspielen.</p>
 
-  <button id="play-button">▶ Play</button>
+ <button id="play-button" disabled>
+    <img id="play-icon" src="/static/play.png" alt="Play/Pause">
+</button>
+
+<a id="next-scan-link" href="/camera">Nächste Karte Scannen</a>
 
   
   <script src="https://sdk.scdn.co/spotify-player.js"></script>

@@ -3,6 +3,8 @@ from fastapi.responses import RedirectResponse, JSONResponse
 import requests, base64, os
 from dotenv import load_dotenv
 from fastapi.staticfiles import StaticFiles
+import json
+from fastapi.responses import JSONResponse
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -94,3 +96,17 @@ async def get_token():
         user_tokens['default']['access_token'] = access_token
 
     return JSONResponse({"access_token": access_token})
+
+@app.get("/karte/{karte_id}")
+async def get_track(karte_id: str):
+    try:
+        with open("songs.json", "r") as f:
+            karte_map = json.load(f)
+    except FileNotFoundError:
+        return JSONResponse({"error": "Datenbank nicht gefunden"}, status_code=500)
+
+    track_uri = karte_map.get(karte_id)
+    if not track_uri:
+        return JSONResponse({"error": "Song für diese Karte nicht gefunden"}, status_code=404)
+
+    return {"track_uri": track_uri}
