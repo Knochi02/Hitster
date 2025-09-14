@@ -8,7 +8,7 @@ app.secret_key = os.urandom(24)
 
 CLIENT_ID = "26a0b6c1dd564438861726a3dc4fb46e"
 CLIENT_SECRET = "91a9c1b9f90e4551bb6d6a27921bedf6"
-REDIRECT_URI = "http://192.168.1.254:5000/callback"
+REDIRECT_URI = "https://knochi02-musicapp.onrender.com/callback"
 
 SCOPE = "user-read-playback-state user-modify-playback-state streaming"
 
@@ -62,3 +62,4 @@ def camera():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
