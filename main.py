@@ -63,6 +63,12 @@ async def callback(request: Request):
 
     return RedirectResponse("/camera")
 
+
+@app.get("/camera")
+async def camera():
+    return RedirectResponse("/static/kamera.html")
+
+
 @app.get("/auth/token")
 async def get_token():
     tokens = user_tokens.get('default')
