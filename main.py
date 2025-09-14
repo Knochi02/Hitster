@@ -2,13 +2,16 @@ from flask import Flask, redirect, request, session
 import requests
 import base64
 import os
+from dotenv import load_dotenv
+
+load_dotenv()  
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
-CLIENT_ID = "26a0b6c1dd564438861726a3dc4fb46e"
-CLIENT_SECRET = "91a9c1b9f90e4551bb6d6a27921bedf6"
-REDIRECT_URI = "https://knochi02-musicapp.onrender.com/callback"
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+REDIRECT_URI = os.getenv("REDIRECT_URI")
 
 SCOPE = "user-read-playback-state user-modify-playback-state streaming"
 
@@ -62,4 +65,3 @@ def camera():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
-
