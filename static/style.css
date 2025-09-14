@@ -71,3 +71,10 @@ video {
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
 }
+
+#play-img {
+    width: 100px;   /* Breite auf 100px setzen */
+    height: 100px;  /* Höhe auf 100px setzen */
+    object-fit: contain; /* Bild proportional skalieren */
+    cursor: pointer; /* Zeiger beim Hover */
+}

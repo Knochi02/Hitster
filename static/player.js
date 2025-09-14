@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         playButton.addEventListener('click', async () => {
             if (!isPlaying) {
-                // Song starten oder fortsetzen
+                // Song starten
                 await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
                     method: 'PUT',
                     headers: {
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     },
                     body: JSON.stringify({ uris: [trackUri] })
                 });
-                playButton.src = '/static/pause.png'; // Bild wechseln
+                playImg.src = '/static/pause.png'; // Bild wechseln
                 isPlaying = true;
             } else {
                 // Song pausieren
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         'Content-Type': 'application/json'
                     }
                 });
-                playButton.src = '/static/play.png'; // Bild wechseln
+                playImg.src = '/static/play.png'; // Bild wechseln
                 isPlaying = false;
             }
         });
