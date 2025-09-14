@@ -40,18 +40,39 @@ document.addEventListener('DOMContentLoaded', () => {
             volume: 0.8
         });
 
+        let deviceId;
+        let isPlaying = false;
+
         player.addListener('ready', ({ device_id }) => {
             console.log('Ready with Device ID', device_id);
+            deviceId = device_id;
+            playButton.disabled = false;
 
             playButton.addEventListener('click', async () => {
-                await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${device_id}`, {
-                    method: 'PUT',
-                    body: JSON.stringify({ uris: [trackUri] }),
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${accessToken}`
-                    },
-                });
+                if (!isPlaying) {
+                    // Song starten oder fortsetzen
+                    await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+                        method: 'PUT',
+                        headers: {
+                            'Authorization': `Bearer ${accessToken}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ uris: [trackUri] })
+                    });
+                    playButton.src = '/static/pause.png'; // Bild wechseln
+                    isPlaying = true;
+                } else {
+                    // Song pausieren
+                    await fetch(`https://api.spotify.com/v1/me/player/pause?device_id=${deviceId}`, {
+                        method: 'PUT',
+                        headers: {
+                            'Authorization': `Bearer ${accessToken}`,
+                            'Content-Type': 'application/json'
+                        }
+                    });
+                    playButton.src = '/static/play.png'; // Bild wechseln
+                    isPlaying = false;
+                }
             });
         });
 
