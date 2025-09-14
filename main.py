@@ -1,13 +1,10 @@
 from fastapi import FastAPI, Request
-from fastapi.responses import RedirectResponse, HTMLResponse
-import requests
-import base64
-import os
+from fastapi.responses import RedirectResponse, JSONResponse
+import requests, base64, os
 from dotenv import load_dotenv
 from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
-
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 load_dotenv()
@@ -15,10 +12,12 @@ load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 REDIRECT_URI = os.getenv("REDIRECT_URI")
-
-SCOPE = "user-read-playback-state user-modify-playback-state streaming"
 SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize"
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
+SCOPE = "user-read-playback-state user-modify-playback-state streaming"
+
+# In-memory storage (später DB)
+user_tokens = {}
 
 @app.get("/")
 async def index():
@@ -40,8 +39,8 @@ async def login():
 @app.get("/callback")
 async def callback(request: Request):
     code = request.query_params.get("code")
-    if code is None:
-        return HTMLResponse("Fehler: Kein Code erhalten", status_code=400)
+    if not code:
+        return JSONResponse({"error": "Kein Code erhalten"}, status_code=400)
 
     auth_header = base64.b64encode(f"{CLIENT_ID}:{CLIENT_SECRET}".encode()).decode()
     headers = {"Authorization": f"Basic {auth_header}"}
@@ -53,12 +52,39 @@ async def callback(request: Request):
 
     r = requests.post(SPOTIFY_TOKEN_URL, data=data, headers=headers)
     if r.status_code != 200:
-        return HTMLResponse(f"Fehler beim Token-Tausch: {r.text}", status_code=400)
+        return JSONResponse({"error": r.text}, status_code=400)
 
     token_info = r.json()
-    # Session-Handling ist in FastAPI anders, für einfache Weiterleitung reicht:
+    # Speichern von access + refresh Token (z.B. user_id = 'default')
+    user_tokens['default'] = {
+        "access_token": token_info['access_token'],
+        "refresh_token": token_info['refresh_token']
+    }
+
     return RedirectResponse("/camera")
 
-@app.get("/camera")
-async def camera():
-    return RedirectResponse("/static/kamera.html")
+@app.get("/auth/token")
+async def get_token():
+    tokens = user_tokens.get('default')
+    if not tokens:
+        return JSONResponse({"error": "Nicht eingeloggt"}, status_code=400)
+
+    # Access Token prüfen / erneuern
+    access_token = tokens['access_token']
+    refresh_token = tokens['refresh_token']
+
+    # Optional: hier prüfen ob abgelaufen (vereinfachtes Beispiel)
+    # Immer erneuern, falls Probleme
+    auth_header = base64.b64encode(f"{CLIENT_ID}:{CLIENT_SECRET}".encode()).decode()
+    headers = {"Authorization": f"Basic {auth_header}"}
+    data = {
+        "grant_type": "refresh_token",
+        "refresh_token": refresh_token
+    }
+    r = requests.post(SPOTIFY_TOKEN_URL, data=data, headers=headers)
+    if r.status_code == 200:
+        new_token_info = r.json()
+        access_token = new_token_info['access_token']
+        user_tokens['default']['access_token'] = access_token
+
+    return JSONResponse({"access_token": access_token})
