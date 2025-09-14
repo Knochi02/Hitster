@@ -123,7 +123,7 @@ async function initPlayer() {
             const urlParams = new URLSearchParams(window.location.search);
             const karteId = urlParams.get('karte');
             const karteMap = {
-                "4321": "spotify:track:7ouMYWpwJ422jRcDASZB7P",
+                "4321": "spotify:track:5bcTCxgc7xVfSaMV3RuVke",
                 "4322": "spotify:track:4iV5W9uYEdYUVa79Axb7Rh"
             };
             const trackUri = karteMap[karteId];
