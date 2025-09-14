@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', async () => {
-  const playButton = document.getElementById('play-button');
   const playImg = document.getElementById('play-img');
   const nextScanLink = document.getElementById('next-scan-link');
 
@@ -9,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (!karteId) {
     alert("Keine Karte gefunden!");
-    playButton.disabled = true;
+    playImg.style.pointerEvents = 'none'; // Klick deaktivieren
     return;
   }
 
@@ -26,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const trackUri = await getTrackUri(karteId);
   if (!trackUri) {
-    playButton.disabled = true;
+    playImg.style.pointerEvents = 'none';
     return;
   }
 
@@ -49,38 +48,46 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   let deviceId;
   let isPlaying = false;
+  let firstStart = true; 
 
   player.addListener('ready', ({ device_id }) => {
     console.log('Ready with Device ID', device_id);
     deviceId = device_id;
-    playButton.disabled = false;
 
-    playButton.addEventListener('click', async () => {
-      if (!isPlaying) {
-        // Song starten oder fortsetzen
+    playImg.addEventListener('click', async () => {
+    if (!isPlaying) {
+        // Song starten (beim ersten Klick) oder fortsetzen (bei Pause)
+        const body = firstStart
+            ? JSON.stringify({ uris: [trackUri] }) // nur beim ersten Start Track übergeben
+            : null; // danach nur fortsetzen
+
         await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
-          method: 'PUT',
-          headers: {
-            'Authorization': `Bearer ${accessToken}`,
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({ uris: [trackUri] })
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${accessToken}`,
+                'Content-Type': 'application/json'
+            },
+            body: body
         });
-        playImg.src = '/static/pause.png'; // Bild wechseln
+
+        playImg.src = '/static/pause.png';
         isPlaying = true;
-      } else {
+        firstStart = false;
+    } else {
         // Song pausieren
         await fetch(`https://api.spotify.com/v1/me/player/pause?device_id=${deviceId}`, {
-          method: 'PUT',
-          headers: {
-            'Authorization': `Bearer ${accessToken}`,
-            'Content-Type': 'application/json'
-          }
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${accessToken}`,
+                'Content-Type': 'application/json'
+            }
         });
-        playImg.src = '/static/play.png'; // Bild wechseln
+
+        playImg.src = '/static/play.png';
         isPlaying = false;
-      }
+        }
     });
+
   });
 
   player.addListener('not_ready', ({ device_id }) => {
