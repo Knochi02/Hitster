@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             body: body
         });
 
-        playImg.src = '/static/pause.png';
+        playImg.src = '/static/pause_v2.png';
         isPlaying = true;
         firstStart = false;
     } else {
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
 
-        playImg.src = '/static/play.png';
+        playImg.src = '/static/play_v2.png';
         isPlaying = false;
         }
     });
