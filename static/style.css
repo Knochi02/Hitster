@@ -22,7 +22,7 @@ video {
     
 }
 
-.text {
+p h1{
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 40px;
@@ -73,8 +73,22 @@ video {
 }
 
 #play-img {
-    width: 100px;   /* Breite auf 100px setzen */
-    height: 100px;  /* Höhe auf 100px setzen */
-    object-fit: contain; /* Bild proportional skalieren */
-    cursor: pointer; /* Zeiger beim Hover */
+    width: 100px;   
+    height: 100px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#next-scan-link {
+    color: rgb(0, 218, 248);
+    text-decoration: none;          
+    -webkit-text-decoration-skip: none;
+    cursor: pointer;
+}
+
+#next-scan-link:hover,
+#next-scan-link:focus {
+    outline: 3px solid rgba(0, 219, 248, 0.25);
+    outline-offset: 3px;
+    text-decoration: none;
 }
