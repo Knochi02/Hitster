@@ -1,362 +1,310 @@
-{
-  "1000": "spotify:track:2TxCwUlqaOH3TIyJqGgR91", 
-  "1001": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1002": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1003": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1004": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1005": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1006": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1007": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1008": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1009": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1010": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1011": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1012": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1013": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1014": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1015": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1016": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1017": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1018": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1019": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1020": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1021": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1022": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1023": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1024": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1025": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1026": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1027": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1028": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1029": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1030": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1031": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1032": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1033": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1034": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1035": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1036": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1037": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1038": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1039": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1040": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1041": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1042": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1043": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1044": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx",
-  "1045": "spotify:track:xxxxxxxxxxxxxxxxxxxxxx"
-
-
-
-}
-
-Jahr	Titel	Interpret
-1975	Mamma Mia	ABBA
-1975	SOS	ABBA
-1975	Bohemian Rhapsody	Queen
-1975	That’s The Way I Like It	KC and the Sunshine Band
-1976	Hotel California	Eagles
-1976	Daning Queen	ABBA
-1976	TNT	AC/DC
-1976	Daddy Cool	Boney M.
-1977	Stayin' Alive	Bee Gees
-1977	Three Little Birds	Bob Marley & The Wailers
-1977	We Will Rock You	Queen
-1977	Mr. Blue Sky	Electric Light Orchestra
-1978	I Will Survive	Gloria Gaynor
-1978	Y.M.C.A.	Village People
-1978	Roxanne	The Police
-1978	Stumblin’ In	Suzi Quatro, Chris Norman
-1979	Another Brick in the Wall (Part II)	Pink Floyd
-1979	I Was Made for Lovin’ You	Kiss
-1979	Message In A Bottle	The Police
-1979	Escape (The Pina Colada Song)	Rupert Holmes
-1980	Another One Bites the Dust	Queen
-1980	Upside Down	Diana Ross
-1980	Back in Black	AC/DC
-1980	Lay All Your Love On Me	ABBA
-1981	Skandal im Sperrbezirk	Spider Murphy Gang
-1981	Down Under	Men at work
-1981	Under Pressure	David Bowie, Queen
-1981	In The Air Tonight	Phil Collins
-1982	Maneater	Hall & Oates
-1982	Nur geträumt	Nena
-1982	Beat it	Michael Jackson
-1982	You Can’t Hurry Love	Phil Collins
-1983	Girls just Want to have fun	Cyndi Lauper
-1983	Sweet Dreams	Eurithmics
-1983	Uptown Girl	Billy Joel
-1983	Every Breath You Take	The Police
-1984	People Are People	Depeche Mode
-1984	Footlose	Kenny Loggins
-1984	Purple Rain	Prince
-1984	Against All Odds	Phil Collins
-1985	Merry Christmas Everyone	Shakin' Stevens
-1985	Everybody want to rule the world	tears for fears
-1985	Rock Me Amadeus	Falco
-1985	Jeanny	Falco
-1986	La Isla Bonita	Madonna
-1986	Livin’ on a Prayer	Bon Jovi
-1986	Kiss	Prince
-1986	A Kind Of Magic	Queen
-1987	Paradise City	Guns N' Roses
-1987	With Or Without You	U2
-1987	It’s The End Of The World As We Know It (And I Feel Fine)	R.E.M.
-1987	I Still Haven’t Found What I’m Looking For	U2
-1988	One Moment in Time	Whitney Houston
-1988	Listen to Your Heart	Roxette
-1988	The Great Commandment	Camouflage
-1988	Westerland	Die Ärzte
-1989	Pump Up The Jam	Technotronic, Felly
-1989	Another Day In Paradise	Phil Collins
-1989	Love is A Shield	Camouflage
-1989	Wicked Game	Chris Isaak
-1990	Verdammt, ich lieb' dich	Matthias Reim
-1990	U Can't Touch This	MC Hammer
-1990	Let Me Entertain You	Robbie Williams
-1990	Thunderstruck	AC/DC
-1991	Losing My Religion	R.E.M.
-1991	Come as You Are	Nirvana
-1991	November Rain	Guns N’ Roses
-1991	Smells Like Teen Spirit	Nirvana
-1992	Rythm is a dancer	Snap!
-1992	Die da!?	Die Fantastischen Vier
-1992	I Will Always Love You	Whitney Houston
-1992	Everybody Hurts	R.E.M.
-1993	Schrei nach Liebe	Die Ärzte
-1993	Alles aus Liebe	Die Toten Hosen
-1993	All That She Wants	Ace of Base
-1993	All for Love	Bryan Adams, Rod Stewart, Sting
-1994	The Sign	Ace of Base
-1994	Der Berg ruft 	K2
-1994	Zombie	The Cranberries
-1994	Basket Case	Green Day
-1995	I'll Be There for You	The Rembrandts
-1995	Gangsta’s Paradise	Coolio
-1995	Bombastic	Shaggy
-1995	Earth Song	Michael Jackson
-1996	Killing me softly with his song	Fugees
-1996	Don’t look back in anger	Oasis
-1996	Bonnie & Clyde	Die Toten Hosen
-1996	Wannabe	Spice Girls
-1997	My Heart Will Go On	Celine Dion
-1997	I’ll be missing you	Puff Daddy & Faith Evans ft. 112
-1997	Men In Black	Will Smith
-1997	Everlong	Foo Fighters
-1998	Don't Want to Miss a Thing	Aerosmith
-1998	Out Of The Dark	Falco
-1998	Iris	The Goo Goo Dolls
-1998	Miami	Will Smith
-1999	Californication	Red Hot Chili Peppers
-1999	All the Small Things	Blink-182
-1999	Genie In a Bottle	Christina Aguilera
-1999	Narctoic	Liquido
-2000	It’s my life	Bon Jovi
-2000	Again	Lenny Kravitz
-2000	Teenage Dirtbag	Wheatus
-2000	Beautiful Day	U2
-2000	Oops!… I Did It Again	Britney Spears
-2000	Rollin’ (Air Raid Vehicle)	Limp Bizkit
-2000	The Real Slim Shady	Eminem
-2000	Ms. Jackson	Outkast
-2001	The Middle	Jimmy Eat World
-2001	In the End	Linkin Park
-2001	Fallin'	Alicia Keys
-2001	Let Me Blow Ya Mind	Eve, Gwen Stefani
-2001	Sonne	Rammstein
-2001	How You Remind Me	Nickelback
-2001	First Date	Blink-182
-2001	Family Affair	Mary J. Blige
-2002	Lose Yourself	Eminem
-2002	Feel	Robbie Williams
-2002	Ein Kompliment	Sportfreunde Stiller
-2002	Can’t Stop	Red Hot Chili Peppers
-2002	Without Me	Eminem
-2002	A Thousand Miles	Vanessa Carlton
-2002	All The Things She Said	t.A.T.u.
-2002	Sk8er Boi	Avril Lavigne
-2003	Toxic	Britney Spears
-2003	Hey Ya!	Outkast
-2003	Bring Me to Life	Evanescence
-2003	Where Is The Love?	Black Eyed Peas
-2003	Denkmal	Wir sind Helden
-2003	Crazy in Love	Beyoncé feat. Jay-Z
-2003	Numb	Linkin Park
-2003	Seven Nation Army	The White Stripes
-2004	Because of You	Kelly Clarkson
-2004	Mockingbird	Eminem
-2004	Boulevard of Broken Dreams	Green Day
-2004	Perfekte Welle	Juli
-2004	Mr. Brightside	The Killers
-2004	American Idiot	Green Day
-2004	Since U Been Gone	Kelly Clarkson
-2004	Unwritten	Natasha Bedingfield
-2005	Temperature	Sean Paul
-2005	Hey there Delilah	Plain White T’s
-2005	Rockstar	Nickelback
-2005	Pump It	Balck Eyed Peas
-2005	Feel Good Inc.	Gorillaz, De La Soul
-2005	Hips Don’t Lie	Shakira, Wyclef Jean
-2005	Push The Button	Sugababes
-2005	Photograph	Nickelback
-2006	Back to Black	Amy Winehouse
-2006	Fergalicious	Fergie, will.i.am
-2006	Chasing Cars	Snow Patrol
-2006	Promiscuous	Nelly Furtado, Timbaland
-2006	SexyBack	Justin Timberlake, Timbaland
-2006	SOS	Rihanna
-2006	'54, ‘74, ‘90, 2010	Sportfreunde Stiller
-2006	The Sweet Escape	Gwen Stefani, Akon
-2007	What I've Done	Linkin Park
-2007	Lasse redn	Die Ärzte
-2007	Apologize	Timbaland, OneRepublic
-2007	Pocket of Sunshine	Natasha Bedingfield
-2007	Junge	Die Ärzte
-2007	Crazy	Gnarls Barkley, CeeLo Green, Danger Mouse
-2007	Give It to Me	Timbaland, Justin Timberlake, Nelly Furtado
-2007	The Way I Are	Timbaland, Keri Hilson, D.O.E.
-2008	Breakin' Dishes	Rihanna
-2008	Haus am See	Peter Fox
-2008	I Kissed A Girl	Katy Perry
-2008	Halo	Beyoncé 
-2008	Love Story	Taylor Swift
-2008	Womanizer	Britney Spears
-2008	Don’t Stop The Music	Rihanna
-2008	Low 	Flo Rida, T-Pain
-2009	Forever	Drake, Kanye West, Lil Wayne, Eminem
-2009	Diva	Beyonce
-2009	Rock That Body	Black Eyed Peas
-2009	Imma Be	Black Eyed Peas
-2009	Hotel Room Service	Pitbull
-2009	Pflaster	Adel Tawil, Ich + Ich
-2009	Monsta	Culcha Candela
-2009	Party In The U.S.A.	Miley Cyrus
-2010	Dynamite	Taio Cruz
-2010	Disco Pogo	Die Atzen
-2010	Hey, Soul Sister	Train
-2010	The Spins	Mac Miller, Empire Of The Sun
-2010	Ne Leiche	SDP, Sido
-2010	Super Bass	Nicki Minaj
-2010	Just Can’t Get Enough	Black Eyed Peas
-2010	Sexy Bitch 	David Guetta, Akon
-2011	Jet Set	Carmen Geiss
-2011	On the floor	Jennifer Lopez ft. Pitbull
-2011	Give Me Everything	Pitbull, AFROJACK, Ne-Yo, Nayer
-2011	Somebody That I Used to Know	Gotye feat. Kimbra
-2011	Domino 	Jessie j
-2011	Paradise	Coldplay
-2011	Yeah 3x	Chris Brown
-2011	Ni**as In Prais	JAY-Z, Kanye West
-2012	Boyfriend	Justin Bieber
-2012	Castle of Glass	Linkin Park
-2012	Treasur	Bruno Mars
-2012	Money Trees	Kendrick Lamar, Jay Rock
-2012	Altes Fieber	Die Toten Hosen
-2012	M&F	Die Ärzte
-2012	Drive By	Train
-2012	Beauty And A Beat	Justin Bieber, Nicki Minaj
-2013	Timber	Pitbull, Kesha
-2013	Applaus, Applaus	Sportfreunde Stiller
-2013	Lieder	Adel Tawil
-2013	Photograph	Ed Sheeran
-2013	Get Lucky	Daft Punk
-2013	#thatPOWER	will.i.amm, Justin Bieber
-2013	I Love It	Icona Pop, Charlie xcx
-2013	Team	Lorde
-2014	All of Me	John Legend
-2014	Can’t remember to forget you	Shakira ft. Rihanna
-2014	Steal My Girl	One Direction
-2014	Riptide	Vance Joy
-2014	Stay With Me	Sam Smith
-2014	One Last Time	Ariana Grande
-2014	Blank Space	Taylor Swift
-2014	Mädchen auf dem Pferd	Fabian Buch
-2015	Bye Bye	Cro
-2015	FourFiveSeconds	Rhinanna, Kanye West, Paul McCartney
-2015	Stressed Out	TwentyOnePilots
-2015	Stitches	Shawn Mendes
-2015	Adventure of a Lifetime	Coldplay
-2015	„069“	Haftbefehhl
-2015	Wie schön du bist	Sarah Connor
-2015	Astronaut	Sido
-2016	Hulapalu	Andreas Gabalier
-2016	One Dance	Drake, Wizkid, Kyla
-2016	Nullkommaneun	SSIO
-2016	Ohne mein Team	Bonez Mc, RAF Camora, Maxwell
-2016	Die For You	The Weeknd
-2016	Treat You Better	Shawn Mendes
-2016	Cheap Thrills	Sia, Sean Paul
-2016	Palmen aus Plastik	Bonez Mc, RAF Camora
-2017	Was du Liebe nennst	Bausa
-2017	Feels	Calvin Harris ft. Pharrell Williams, Katy Perry & Big Sean
-2017	Jim Beam & Voddi	AK AUSSERKONTROLLE, Bonez Mc
-2017	Perfect	Ed Sheeran
-2017	How it is	Bianca Heinicke
-2017	Personal	Hrvy
-2017	Herzbeben	Helene Fischer
-2017	Bongzimmer	SXTN
-2018	God's Plan	Drake
-2018	Butterfly Effect	Travis Scott
-2018	Hooked	Why Don’t We
-2018	Happier	Marshmello, Bastille
-2018	Hope 	XXXTENTACION
-2018	Chabos wissen wer der Babo ist	Haftbefehl
-2018	All The Stars	Kendrick Lamar, SZA
-2018	8 Letters	Why Don’t We
-2019	110	Capital Bra, Samra, LEA
-2019	Dance Monkey	Tones and I
-2019	What am I	Why Don’t We
-2019	Wallah Habibi	Julien Bam, Kelly, Vincent Lee
-2019	Cruel Summer	Tylor Swift
-2019	Lost in the Fire	Gesaffelstein ft. The Weeknd
-2019	Sunflower	Post Malone, Swae Lee
-2019	Wow.	Post Malone
-2020	Sky	Playboi Carti
-2020	Angels Sippen	Symba
-2020	levitating	Dua Lipa ft. DaBaby
-2020	What You Know Bout Love	Pop Smoke
-2020	Emotions	Ufo 361
-2020	Diva	The Kid LAROI, Lil Tecca
-2020	Mood Swings	Pop Smoke, Lil Tjay
-2020	Falling	Trevor Daniel
-2021	Ohne Dich	Kasimir 1441 ft. Badmomzjay, wildbwoys
-2021	Extasy	187 Straßenbande 
-2021	Sommergewitter	Pashanim
-2021	drivers license	Olivia Rodrigo
-2021	Ghost	Justin Bieber
-2021	Falllin’ (Adrenaline)	Why Don’t We
-2021	Best Friend	Saweetie, Doja Cat
-2021	Friday	Riton, Nightcrawlers, Mufasa & Hypeman, Mufasa, Dopamine
-2022	Sehnsucht	Miksu / Macloud, T-LOW
-2022	Sternzeichen Arrogant	ROSC
-2022	Glücklich	Cro, 01099
-2022	Auf & Ab	Montez
-2022	Nachts wach	Miksu / Macloud, makko
-2022	West Coast	OneRepublic
-2022	Boyfriend	Dove Cameron
-2022	Ohne Benzin	Domiziana
-2023	The Motto	Ava Max
-2023	Mann vom Fach	Levin Liam, Miksu/Macloud
-2023	LiEBE AUF DER RÜCKBANK	FiNCH, TREAM
-2023	NIGHTS LIKE THIS	The Kid LAROI
-2023	Pink Pony Club	Chappell Roan
-2023	Barbie World 	Nicki Minaj, Ice Spice, Aqua
-2023	Chemical	Post Malone
-2023	Escapism.	RAYE, 070 Shake
-2024	Apple	Charlie xcx
-2024	Whatever	Kygo, Ava Max
-2024	Taste	Sabrina Carpenter
-2024	Schau mal herein	Helene Fischer, Florian Silbereisen
-2024	agavendicksaft	Sampagne
-2024	BIKINI GRELL	Ikkimel, Robbensohn
-2024	I had Some Help	Post Malone, Morgan Wallen
-2024	Bundeswehr	Souly
-2025	Ordinary	Alex Warren
-2025	Anxiety	unknown
-2025	Just Keep Watching	Tate McRae
-2025	tau mich auf	Zartmann
-2025	it girl	Shirin David, Sampagne
-2025	Azizam	Ed Sheeran
-2025	Cry For Me	The Weeknd
-2025	alle märchen sind gelogen	jolle
-
+{	
+1000": "spotify:track:2TxCwUlqaOH3TIyJqGgR91	1975	Mamma Mia	ABBA
+1001": "spotify:track:6yZv0Nl6BXABbXoPVpfF5y	1975	SOS	ABBA
+1002": "spotify:track:3z8h0TU7ReDPLIbEnYhWZb	1975	Bohemian Rhapsody	Queen
+1003": "spotify:track:7s3FSodLpnKMzeMj17G5d0	1975	That’s the Way (I Like It)	KC & the Sunshine Band
+1004": "spotify:track:40riOy7x9W7GXjyGp4pjAv	1976	Hotel California	Eagles
+1005": "spotify:track:0GjEhVFGZW8afUYGChu3Rr	1976	Daning Queen	ABBA
+1006": "spotify:track:7LRMbd3LEoV5wZJvXT1Lwb	1976	T.N.T.	AC/DC
+1007": "spotify:track:3WMbD1OyfKuwWDWMNbPQ4g	1976	Daddy Cool	Boney M.
+1008": "spotify:track:4UDmDIqJIbrW0hMBQMFOsM	1977	Stayin' Alive	Bee Gees
+1009": "spotify:track:7vggqxNKwd6xdRoYS0pQtM	1977	Three Little Birds	Bob Marley & The Wailers
+1010": "spotify:track:03jhnLcIT8C4DhXnNecOZv	1977	We Will Rock You	Queen
+1011": "spotify:track:2RlgNHKcydI9sayD2Df2xp	1977	Mr. Blue Sky	Electric Light Orchestra
+1012": "spotify:track:7rIovIsXE6kMn629b7kDig	1978	I Will Survive	Gloria Gaynor
+1013": "spotify:track:3ypMsqUwfNFMiooMLVHfkp	1978	YMCA	Village People
+1014": "spotify:track:3EYOJ48Et32uATr9ZmLnAo	1978	Roxanne	The Police
+1015": "spotify:track:0ctgmKdlPY8xx41wY339Da	1978	Stumblin’ In	Suzi Quatro, Chris Norman
+1016": "spotify:track:4gMgiXfqyzZLMhsksGmbQV	1979	Another Brick in the Wall (Part II)	Pink Floyd
+1017": "spotify:track:6S9q9mEifNdnTNlli2xSuD	1979	I Was Made for Lovin’ You	Kiss
+1018": "spotify:track:1oYYd2gnWZYrt89EBXdFiO	1979	Message In A Bottle	The Police
+1019": "spotify:track:5I9zIwGB6f0edpjO5oX2b9	1979	Escape (The Pina Colada Song)	Rupert Holmes
+1020": "spotify:track:2k1yPYf9WGA4LiqcLVwtzn	1980	Another One Bites The Dust	Queen
+1021": "spotify:track:3pbtBomO4Zt5gGiqsYeiBH	1980	Upside Down	Diana Ross
+1022": "spotify:track:08mG3Y1vljYA6bvDt4Wqkj	1980	Back In Black	AC/DC
+1023": "spotify:track:4euAGZTszWPrriggYK0HG9	1980	Lay All Your Love On Me	ABBA
+1024": "spotify:track:26kXONuhWX8sutaxnmcpPg	1981	Skandal im Sperrbezirk	Spider Murphy Gang
+1025": "spotify:track:5pSvjjfsh34sLrkYSNGCl4	1981	Down Under	Men At Work
+1026": "spotify:track:6suU8oBlW4O2pg88tOXgHo	1981	Under Pressure	David Bowie, Queen
+1027": "spotify:track:6mYXXXgFZZmk2mgejwSwdN	1981	In The Air Tonight	Phil Collins
+1028": "spotify:track:7j74lucZ59vqN67Ipe2ZcY	1982	Maneater	Hall & Oates
+1029": "spotify:track:0ukySDr4uEzZE36s7t7X8E	1982	Nur geträumt	Nena
+1030": "spotify:track:1OOtq8tRnDM8kG2gqUPjAj	1982	Beat It	Michael Jackson
+1031": "spotify:track:4YwbSZaYeYja8Umyt222Qf	1982	You Can’t Hurry Love	Phil Collins
+1032": "spotify:track:4y1LsJpmMti1PfRQV9AWWe	1983	Girls just Want to have fun	Cyndi Lauper
+1033": "spotify:track:6zIfdCmmhPCX0cMquBsC37	1983	Sweet Dreams	Eurythmics, Annie Lennox, Dave Stewart
+1034": "spotify:track:5zA8vzDGqPl2AzZkEYQGKh	1983	Uptown Girl	Billy Joel
+1035": "spotify:track:1JSTJqkT5qHq8MDJnJbRE1	1983	Every Breath You Take	The Police
+1036": "spotify:track:4WoKuMjwJXuy9IqX6AH5JE	1984	People Are People	Depeche Mode
+1037": "spotify:track:6W2VbtvMrDXm5vYeB7amkO	1984	Footlose	Kenny Loggins
+1038": "spotify:track:1uvyZBs4IZYRebHIB1747m	1984	Purple Rain	Prince
+1039": "spotify:track:63CHa6rmamv9OsehkRD8oz	1984	Against All Odds (Take a Look at Me Now)	Phil Collins
+1040": "spotify:track:2TE4xW3ImvpltVU0cPcKUn	1985	Merry Christmas Everyone	Shakin' Stevens
+1041": "spotify:track:4RvWPyQ5RL0ao9LPZeSouE	1985	Everybody want to rule the world	Tears For Fears
+1042": "spotify:track:0DfG1ltJnZyq4Tx3ZLL7ZU	1985	Rock Me Amadeus	Falco
+1043": "spotify:track:6a0lr0jt8lKDJhsAYA49NS	1985	Jeanny	Falco
+1044": "spotify:track:6r8k1vznHrzlEKYxL4dZEe	1986	La Isla Bonita	Madonna
+1045": "spotify:track:37ZJ0p5Jm13JPevGcx4SkF	1986	Livin’ On A Prayer	Bon Jovi
+1046": "spotify:track:62LJFaYihsdVrrkgUOJC05	1986	Kiss	Prince
+1047": "spotify:track:5RYLa5P4qweEAKq5U1gdcK	1986	A Kind Of Magic	Queen
+1048": "spotify:track:6eN1f9KNmiWEhpE2RhQqB5	1987	Paradise City	Guns N' Roses
+1049": "spotify:track:4N0fzRX3T7QkOecp3pkWpp	1987	With Or Without You	U2
+1050": "spotify:track:2oSpQ7QtIKTNFfA08Cy0ku	1987	It’s The End Of The World As We Know It (And I Feel Fine)	R.E.M.
+1051": "spotify:track:6wpGqhRvJGNNXwWlPmkMyO	1987	I Still Haven’t Found What I’m Looking For	U2
+1052": "spotify:track:3cxjdKOZAlZO1steLpP8dN	1988	One Moment in Time	Whitney Houston
+1053": "spotify:track:1WrwmNLeltkG6BuXv2DEWS	1988	Listen To Your Heart	Roxette
+1054": "spotify:track:2hUINMzSnrhcqpdcWiY0oa	1988	The Great Commandment	Camouflage
+1055": "spotify:track:5aWpvFnByyWodgqYlC9kha	1988	Westerland	Die Ärzte
+1056": "spotify:track:21qnJAMtzC6S5SESuqQLEK	1989	Pump Up The Jam	Technotronic, Felly
+1057": "spotify:track:1NCuYqMc8hKMb4cpNTcJbD	1989	Another Day In Paradise	Phil Collins
+1058": "spotify:track:7IBff7ScohvP2pdfHR6YLE	1989	Love Is A Shield	Camouflage
+1059": "spotify:track:7w5AOd6HrDIHewHfpABEss	1989	Wicked Game	Chris Isaak
+1060": "spotify:track:2XEwnFyQhDBHq6rFEaAOQj	1990	Verdammt Ich lieb' dich	Matthias Reim
+1061": "spotify:track:1B75hgRqe7A4fwee3g3Wmu	1990	U Can't Touch This	MC Hammer
+1062": "spotify:track:0SLtqCrXBRrnkxSOMA3X4W	1990	Let Me Entertain You	Robbie Williams
+1063": "spotify:track:57bgtoPSgt236HzfBOd8kj	1990	Thunderstruck	AC/DC
+1064": "spotify:track:31AOj9sFz2gM0O3hMARRBx	1991	Losing My Religion	R.E.M.
+1065": "spotify:track:2RsAajgo0g7bMCHxwH3Sk0	1991	Come as You Are	Nirvana
+1066": "spotify:track:3YRCqOhFifThpSRFJ1VWFM	1991	November Rain	Guns N’ Roses
+1067": "spotify:track:4CeeEOM32jQcH3eN9Q2dGj	1991	Smells Like Teen Spirit	Nirvana
+1068": "spotify:track:5uFYYOyT3EclOVhiFzPJSz	1992	Rythm Is a Dancer	SNAP!
+1069": "spotify:track:0LFq9xNDSgspBQlmaFfpat	1992	Die da!?	Die Fantastischen Vier
+1070": "spotify:track:4eHbdreAnSOrDDsFfc4Fpm	1992	I Will Always Love You	Whitney Houston
+1071": "spotify:track:6PypGyiu0Y2lCDBN1XZEnP	1992	Everybody Hurts	R.E.M.
+1072": "spotify:track:4P4PHxZQ1FcwQKKnfEPsAZ	1993	Schrei nach Liebe	Die Ärzte
+1073": "spotify:track:1MDUhJgzfYnYd8U1AytwFv	1993	Alles aus Liebe	Die Toten Hosen
+1074": "spotify:track:6kWJvPfC4DgUpRsXKNa9z9	1993	All That She Wants	Ace of Base
+1075": "spotify:track:4lsEHglVsLzILTDQ3CNESV	1993	All for Love	Bryan Adams, Rod Stewart, Sting
+1076": "spotify:track:0hrBpAOgrt8RXigk83LLNE	1994	The Sign	Ace of Base
+1077": "spotify:track:7LDN9bVcehZAnEb4Fqy2ie	1994	Der Berg ruft 	K2
+1078": "spotify:track:49wOjOkS4pBK3PQnPnNYjb	1994	Zombie	The Cranberries
+1079": "spotify:track:6L89mwZXSOwYl76YXfX13s	1994	Basket Case	Green Day
+1080": "spotify:track:15tHagkk8z306XkyOHqiip	1995	I'll Be There for You	The Rembrandts
+1081": "spotify:track:1DIXPcTDzTj8ZMHt3PDt8p	1995	Gangsta’s Paradise	Coolio, L.V.
+1082": "spotify:track:4fxF8ljwryMZX5c9EKrLFE	1995	Bombastic	Shaggy
+1083": "spotify:track:4GCGH6TJ69neckwITeBFXK	1995	Earth Song	Michael Jackson
+1084": "spotify:track:0Q0IVlqMV64kNLlwjPj0Hl	1996	Killing Me Softly With His Song	Fugees, Ms. Lauryn Hill
+1085": "spotify:track:7ppPZa3TRUSGKaks9wH7VT	1996	Don’t Look Back In Anger	Oasis
+1086": "spotify:track:2hZAJcLnFGk6V50TiD7yzm	1996	Bonnie & Clyde	Die Toten Hosen
+1087": "spotify:track:1Je1IMUlBXcx1Fz0WE7oPT	1996	Wannabe	Spice Girls
+1088": "spotify:track:33LC84JgLvK2KuW43MfaNq	1997	My Heart Will Go On	Céline Dion
+1089": "spotify:track:3QHONiXGMGU3z68mQInncF	1997	I’ll Be Missing You	Diddy, Faith Evans, 112
+1090": "spotify:track:3Dq2FHZ73hBUG815MoapQu	1997	Men In Black	Will Smith
+1091": "spotify:track:5UWwZ5lm5PKu6eKsHAGxOk	1997	Everlong	Foo Fighters
+1092": "spotify:track:225xvV8r1yKMHErSWivnow	1998	I Don't Want to Miss a Thing	Aerosmith
+1093": "spotify:track:6vgnumRgsZcc5fVFtpIRO1	1998	Out Of The Dark	Falco
+1094": "spotify:track:6Qyc6fS4DsZjB2mRW9DsQs	1998	Iris	The Goo Goo Dolls
+1095": "spotify:track:5n276uEKrEFohrt42pP8Tf	1998	Miami	Will Smith
+1096": "spotify:track:48UPSzbZjgc449aqz8bxox	1999	Californication	Red Hot Chili Peppers
+1097": "spotify:track:2m1hi0nfMR9vdGC8UcrnwU	1999	All the Small Things	Blink-182
+1098": "spotify:track:11mwFrKvLXCbcVGNxffGyP	1999	Genie In a Bottle	Christina Aguilera
+1099": "spotify:track:1H5VQuShs4qfwBXyHF0PeH	1999	Narcotic	Liquido
+1100": "spotify:track:0v1XpBHnsbkCn7iJ9Ucr1l	2000	It’s my life	Bon Jovi
+1101": "spotify:track:5c1QJAiC3773EwiZLwHf5x	2000	Again	Lenny Kravitz
+1102": "spotify:track:3LI4MmibTkXH5cGpCGZgyw	2000	Teenage Dirtbag	Wheatus
+1103": "spotify:track:0gzqZ9d1jIKo9psEIthwXe	2000	Beautiful Day	U2
+1104": "spotify:track:6naxalmIoLFWR0siv8dnQQ	2000	Oops!… I Did It Again	Britney Spears
+1105": "spotify:track:3IV4swNduIRunHREK80owz	2000	Rollin’ (Air Raid Vehicle)	Limp Bizkit
+1106": "spotify:track:3yfqSUWxFvZELEM4PmlwIR	2000	The Real Slim Shady	Eminem
+1107": "spotify:track:0I3q5fE6wg7LIfHGngUTnV	2000	Ms. Jackson	Outkast
+1108": "spotify:track:6GG73Jik4jUlQCkKg9JuGO	2001	The Middle	Jimmy Eat World
+1109": "spotify:track:60a0Rd6pjrkxjPbaKzXjfq	2001	In the End	Linkin Park
+1110": "spotify:track:0KQx6HOpJueiSkztcS0r7D	2001	Fallin'	Alicia Keys
+1111": "spotify:track:3RmKpob8xzv1pzHEQrMJah	2001	Let Me Blow Ya Mind	Eve, Gwen Stefani
+1112": "spotify:track:3gVhsZtseYtY1fMuyYq06F	2001	Sonne	Rammstein
+1113": "spotify:track:0gmbgwZ8iqyMPmXefof8Yf	2001	How You Remind Me	Nickelback
+1114": "spotify:track:1fJFuvU2ldmeAm5nFIHcPP	2001	First Date	Blink-182
+1115": "spotify:track:3aw9iWUQ3VrPQltgwvN9Xu	2001	Family Affair	Mary J. Blige
+1116": "spotify:track:7MJQ9Nfxzh8LPZ9e9u68Fq	2002	Lose Yourself	Eminem
+1117": "spotify:track:2Ms33RTRCT6gArrpcrPxmo	2002	Feel	Robbie Williams
+1118": "spotify:track:5QRkWkMabF6HJmQQm2HBVX	2002	Ein Kompliment	Sportfreunde Stiller
+1119": "spotify:track:3ZOEytgrvLwQaqXreDs2Jx	2002	Can’t Stop	Red Hot Chili Peppers
+1120": "spotify:track:7lQ8MOhq6IN2w8EYcFNSUk	2002	Without Me	Eminem
+1121": "spotify:track:4w1lzcaoZ1IC2K5TwjalRP	2002	A Thousand Miles	Vanessa Carlton
+1122": "spotify:track:4bJygwUKrRgq1stlNXcgMg	2002	All The Things She Said	t.A.T.u.
+1123": "spotify:track:00Mb3DuaIH1kjrwOku9CGU	2002	Sk8er Boi	Avril Lavigne
+1124": "spotify:track:6I9VzXrHxO9rA9A5euc8Ak	2003	Toxic	Britney Spears
+1125": "spotify:track:2PpruBYCo4H7WOBJ7Q2EwM	2003	Hey Ya!	Outkast
+1126": "spotify:track:0COqiPhxzoWICwFCS4eZcp	2003	Bring Me to Life	Evanescence
+1127": "spotify:track:0xmjwnQ3FNE6HuWCt2nHdZ	2003	Where Is The Love?	Black Eyed Peas
+1128": "spotify:track:58zHoX9U5VlSXLUUmWTfe2	2003	Denkmal	Wir sind Helden
+1129": "spotify:track:0TwBtDAWpkpM3srywFVOV5	2003	Crazy in Love	Beyoncé, Jay-Z
+1130": "spotify:track:2nLtzopw4rPReszdYBJU6h	2003	Numb	Linkin Park
+1131": "spotify:track:3dPQuX8Gs42Y7b454ybpMR	2003	Seven Nation Army	The White Stripes
+1132": "spotify:track:0gJvqi9QyASOCtJu99tytc	2004	Because of You	Kelly Clarkson
+1133": "spotify:track:561jH07mF1jHuk7KlaeF0s	2004	Mockingbird	Eminem
+1134": "spotify:track:1hwJKpe0BPUsq6UUrwBWTw	2004	Boulevard of Broken Dreams	Green Day
+1135": "spotify:track:2LV5joNDrsyuXEh4FBARVK	2004	Perfekte Welle	Juli
+1136": "spotify:track:003vvx7Niy0yvhvHt4a68B	2004	Mr. Brightside	The Killers
+1137": "spotify:track:6nTiIhLmQ3FWhvrGafw2zj	2004	American Idiot	Green Day
+1138": "spotify:track:6JY1IdkZGeIcPegKxjSKeb	2004	Since U Been Gone	Kelly Clarkson
+1139": "spotify:track:3U5JVgI2x4rDyHGObzJfNf	2004	Unwritten	Natasha Bedingfield
+1140": "spotify:track:0k2GOhqsrxDTAbFFSdNJjT	2005	Temperature	Sean Paul
+1141": "spotify:track:4RCWB3V8V0dignt99LZ8vH	2005	Hey there Delilah	Plain White T’s
+1142": "spotify:track:3RlsVPIIs5KFhLFhxZ4iDF	2005	Rockstar	Nickelback
+1143": "spotify:track:2ygMBIctKIAfbEBcT9065L	2005	Pump It	Black Eyed Peas
+1144": "spotify:track:0d28khcov6AiegSCpG5TuT	2005	Feel Good Inc.	Gorillaz, De La Soul
+1145": "spotify:track:3d0WouFnFmr0K3kjeza3fF	2005	Hips Don’t Lie	Shakira, Wyclef Jean
+1146": "spotify:track:3EDS89HeAhHiZKlljciK0a	2005	Push The Button	Sugababes
+1147": "spotify:track:3hb2ScEVkGchcAQqrPLP0R	2005	Photograph	Nickelback
+1148": "spotify:track:30FURVTCpbKyykjSEQzGkH	2006	Back to Black	Amy Winehouse
+1149": "spotify:track:6Q44rxzH39y2tjic98Spo5	2006	Fergalicious	Fergie, will.i.am
+1150": "spotify:track:5hnyJvgoWiQUYZttV4wXy6	2006	Chasing Cars	Snow Patrol
+1151": "spotify:track:2gam98EZKrF9XuOkU13ApN	2006	Promiscuous	Nelly Furtado, Timbaland
+1152": "spotify:track:0O45fw2L5vsWpdsOdXwNAR	2006	SexyBack	Justin Timberlake, Timbaland
+1153": "spotify:track:30cSNer6TV8x2utjULVeQ5	2006	SOS	Rihanna
+1154": "spotify:track:6ee1motyT1KuUMiz8dMqxj	2006	'54, ‘74, ‘90, 2010	Sportfreunde Stiller
+1155": "spotify:track:07K4GcCDSTiXUF5ssyTRUM	2006	The Sweet Escape	Gwen Stefani, Akon
+1156": "spotify:track:18lR4BzEs7e3qzc0KVkTpU	2007	What I've Done	Linkin Park
+1157": "spotify:track:6vJ4egoPoiPKUyohVOfVHC	2007	Lasse redn	Die Ärzte
+1158": "spotify:track:6ucR4KfvsBFWCMVFDvyKKl	2007	Apologize	Timbaland, OneRepublic
+1159": "spotify:track:4hjuUelurEBKlqpJPJ77Iw	2007	Pocketful of Sunshine	Natasha Bedingfield
+1160": "spotify:track:10waMsh44ojvTwXAIy213n	2007	Junge	Die Ärzte
+1161": "spotify:track:1vxw6aYJls2oq3gW0DujAo	2007	Crazy	Gnarls Barkley, CeeLo Green, Danger Mouse
+1162": "spotify:track:0wbDgMuAoy7O7pL3a69uZx	2007	Give It To Me	Timbaland, Justin Timberlake, Nelly Furtado
+1163": "spotify:track:2bLqfJjuC5syrsgDsZfGmn	2007	The Way I Are	Timbaland, Keri Hilson, D.O.E.
+1164": "spotify:track:46aZJc0z1HHHSFxaIRxYSP	2008	Breakin' Dishes	Rihanna
+1165": "spotify:track:7A4KdLy1DXOOC5fhIdDuHz	2008	Haus am See	Peter Fox
+1166": "spotify:track:14iN3o8ptQ8cFVZTEmyQRV	2008	I Kissed A Girl	Katy Perry
+1167": "spotify:track:2MfOcbtgz2yTsiznFmVZUN	2008	Halo	Beyoncé 
+1168": "spotify:track:1D4PL9B8gOg78jiHg3FvBb	2008	Love Story	Taylor Swift
+1169": "spotify:track:4fixebDZAVToLbUCuEloa2	2008	Womanizer	Britney Spears
+1170": "spotify:track:0ByMNEPAPpOR5H69DVrTNy	2008	Don’t Stop The Music	Rihanna
+1171": "spotify:track:0CAfXk7DXMnon4gLudAp7J	2008	Low 	Flo Rida, T-Pain
+1172": "spotify:track:5UsLjwBaTHBX4ektWIr4XX	2009	Forever	Drake, Kanye West, Lil Wayne, Eminem
+1173": "spotify:track:5Ssv6DaKrW0HczVqx6zXdl	2009	Diva	Beyoncé
+1174": "spotify:track:2WQ09wqQBIOor7Q0VpIDBK	2009	Rock That Body	Black Eyed Peas
+1175": "spotify:track:16sbugRbf9xEKlekuQ7Whm	2009	Imma Be	Black Eyed Peas
+1176": "spotify:track:6Rb0ptOEjBjPPQUlQtQGbL	2009	Hotel Room Service	Pitbull
+1177": "spotify:track:2y9woPM180Da3Tgf1bBE2K	2009	Pflaster	Adel Tawil, Ich + Ich
+1178": "spotify:track:3RM5RpRDDdST1njqOMG141	2009	Monsta	Culcha Candela
+1179": "spotify:track:3E7dfMvvCLUddWissuqMwr	2009	Party In The U.S.A.	Miley Cyrus
+1180": "spotify:track:2CEgGE6aESpnmtfiZwYlbV	2010	Dynamite	Taio Cruz
+1181": "spotify:track:1v5ux3K8vE1CWxDa0PVyGu	2010	Disco Pogo	Die Atzen
+1182": "spotify:track:4HlFJV71xXKIGcU3kRyttv	2010	Hey, Soul Sister	Train
+1183": "spotify:track:7FAFkQQZFeNwOFzTrSDFIh	2010	The Spins	Mac Miller, Empire Of The Sun
+1184": "spotify:track:2QQQzfLXQWZBYAEr550dFA	2010	Ne Leiche	SDP, Sido
+1185": "spotify:track:3hlksXnvbKogFdPbpO9vel	2010	Super Bass	Nicki Minaj
+1186": "spotify:track:3JA9Jsuxr4xgHXEawAdCp4	2010	Just Can’t Get Enough	Black Eyed Peas
+1187": "spotify:track:0pBMFlAy7mQeUMQKaN4y8x	2010	Sexy Bitch 	David Guetta, Akon
+1188": "spotify:track:6n7gZTdKDiY4CduwBpkgnX	2011	Jet Set	Carmen Geiss
+1189": "spotify:track:3C0nOe05EIt1390bVABLyN	2011	On The Floor	Jennifer Lopez, Pitbull
+1190": "spotify:track:4QNpBfC0zvjKqPJcyqBy9W	2011	Give Me Everything	Pitbull, AFROJACK, Ne-Yo, Nayer
+1191": "spotify:track:6md4w95cnKaW64JyEQ3A0L	2011	Somebody That I Used to Know	Gotye, Kimbra
+1192": "spotify:track:2fQxE0jVrjNMT9oJAXtSJR	2011	Domino 	Jessie J
+1193": "spotify:track:6nek1Nin9q48AVZcWs9e9D	2011	Paradise	Coldplay
+1194": "spotify:track:2QtxlzvSBONjs1bDC34ixs	2011	Yeah 3x	Chris Brown
+1195": "spotify:track:1auxYwYrFRqZP7t3s7w4um	2011	Ni**as In Prais	JAY-Z, Kanye West
+1196": "spotify:track:3UGIZ8qcrMTwzLbx6Kttqt	2012	Boyfriend	Justin Bieber
+1197": "spotify:track:1r1fPuhj9H4VdXr7OK6FL5	2012	Castle Of Glass	Linkin Park
+1198": "spotify:track:55h7vJchibLdUkxdlX3fK7	2012	Treasur	Bruno Mars
+1199": "spotify:track:74tLlkN3rgVzRqQJgPfink	2012	Money Trees	Kendrick Lamar, Jay Rock
+1200": "spotify:track:1qPea3SGgcs2ODFweqK7hP	2012	Altes Fieber	Die Toten Hosen
+1201": "spotify:track:3OVcnhaZTKC6fE0oqiMEny	2012	M&F	Die Ärzte
+1202": "spotify:track:0KAiuUOrLTIkzkpfpn9jb9	2012	Drive By	Train
+1203": "spotify:track:190jyVPHYjAqEaOGmMzdyk	2012	Beauty And A Beat	Justin Bieber, Nicki Minaj
+1204": "spotify:track:3cHyrEgdyYRjgJKSOiOtcS	2013	Timber	Pitbull, Kesha
+1205": "spotify:track:0qOZEyHXwMC5JqcUeTaPvi	2013	Applaus, Applaus	Sportfreunde Stiller
+1206": "spotify:track:2ZoO0uLQRp2WhTlyIH8PJf	2013	Lieder	Adel Tawil
+1207": "spotify:track:1HNkqx9Ahdgi1Ixy2xkKkL	2013	Photograph	Ed Sheeran
+1208": "spotify:track:4tZwfgrHOc3mvqYlEYSvVi	2013	Get Lucky	Daft Punk
+1209": "spotify:track:37qlkp5VImuuYcXZI6aiam	2013	#thatPOWER	will.i.am, Justin Bieber
+1210": "spotify:track:12zpU2S4lMdrK9dvsOoL1m	2013	I Love It	Icona Pop, Charli xcx
+1211": "spotify:track:2Y1OQsdYcFNVetFejnGyAI	2013	Team	Lorde
+1212": "spotify:track:3U4isOIWM3VvDubwSI3y7a	2014	All of Me	John Legend
+1213": "spotify:track:7o1Pm9jpH0wFpN5g793Lnq	2014	Can’t Remember to Forget You	Shakira, Rihanna
+1214": "spotify:track:2Bs4jQEGMycglOfWPBqrVG	2014	Steal My Girl	One Direction
+1215": "spotify:track:7yq4Qj7cqayVTp3FF9CWbm	2014	Riptide	Vance Joy
+1216": "spotify:track:5Nm9ERjJZ5oyfXZTECKmRt	2014	Stay With Me	Sam Smith
+1217": "spotify:track:7xoUc6faLbCqZO6fQEYprd	2014	One Last Time	Ariana Grande
+1218": "spotify:track:1u8c2t2Cy7UBoG4ArRcF5g	2014	Blank Space	Taylor Swift
+1219": "spotify:track:7AOJcugo17Kr1WUheSI6Oq	2014	Mädchen auf dem Pferd	Fabian Buch
+1220": "spotify:track:29uiAcSHtjAUfnSs7UzmkG	2015	Bye Bye	Cro
+1221": "spotify:track:78TTtXnFQPzwqlbtbwqN0y	2015	FourFiveSeconds	Rihanna, Kanye West, Paul McCartney
+1222": "spotify:track:3CRDbSIZ4r5MsZ0YwxuEkn	2015	Stressed Out	Twenty One Pilots
+1223": "spotify:track:5jsw9uXEGuKyJzs0boZ1bT	2015	Stitches	Shawn Mendes
+1224": "spotify:track:69uxyAqqPIsUyTO8txoP2M	2015	Adventure of a Lifetime	Coldplay
+1225": "spotify:track:1B2s3CpX2PV0YN7DkLSQ4b	2015	.069	Haftbefehl, Bazzazian
+1226": "spotify:track:2xtnnO9bHKXEmsfetO3ldK	2015	Wie schön du bist	Sarah Connor
+1227": "spotify:track:0pQr5WsobmdZHnuObT0sc2	2015	Astronaut	Sido
+1228": "spotify:track:627QU4vNG3alCWCK1FMeLK	2016	Hulapalu	Andreas Gabalier
+1229": "spotify:track:1zi7xx7UVEFkmKfv06H8x0	2016	One Dance	Drake, Wizkid, Kyla
+1230": "spotify:track:3cLXgIlvugVKpWBmO5v9oy	2016	Nullkommaneun	SSIO
+1231": "spotify:track:05Mp2UJulSttxQ4E6hQPH3	2016	Ohne mein Team	Bonez Mc, RAF Camora, Maxwell
+1232": "spotify:track:2Ch7LmS7r2Gy2kc64wv3Bz	2016	Die For You	The Weeknd
+1233": "spotify:track:3QGsuHI8jO1Rx4JWLUh9jd	2016	Treat You Better	Shawn Mendes
+1234": "spotify:track:378iszndTZAR4dH8kwsLC6	2016	Cheap Thrills	Sia, Sean Paul
+1235": "spotify:track:6wHRm1KR8pzVDPdmR6Qovj	2016	Palmen aus Plastik	Bonez MC, RAF Camora
+1236": "spotify:track:4hKWUzhQWsOkgT6LnDEASe	2017	Was du Liebe nennst	Bausa
+1237": "spotify:track:5bcTCxgc7xVfSaMV3RuVke	2017	Feels	Calvin Harris, Pharrell Williams, Katy Perry, Big Sean
+1238": "spotify:track:0b85BAqtnPxgxHn0nkegXd	2017	Jim Beam & Voddi	AK AUSSERKONTROLLE, Bonez MC
+1239": "spotify:track:0tgVpDi06FyKpA1z0VMD4v	2017	Perfect	Ed Sheeran
+1240": "spotify:track:3SdZWZ653w62Ah37iDo831	2017	How It Is (Wap Bap…)	Bibi H.
+1241": "spotify:track:33KJ2xFYONOlIYDBg6wPx8	2017	Personal	Hrvy
+1242": "spotify:track:5mWceciQV51RPCBQCLAm3U	2017	Herzbeben	Helene Fischer
+1243": "spotify:track:5peJfpkLPMilv44VqUa2AS	2017	Bongzimmer	SXTN
+1244": "spotify:track:6DCZcSspjsKoFjzjrWoCdn	2018	God's Plan	Drake
+1245": "spotify:track:2cYqizR4lgvp4Qu6IQ3qGN	2018	Butterfly Effect	Travis Scott
+1246": "spotify:track:2N2s2s2w0jmSIPNZcm8Jnr	2018	Hooked	Why Don’t We
+1247": "spotify:track:7BqHUALzNBTanL6OvsqmC1	2018	Happier	Marshmello, Bastille
+1248": "spotify:track:2ZRo7axmMPeSVUvDbGkJah	2018	Hope 	XXXTENTACION
+1249": "spotify:track:6kjBafSuYC8gClzfYu7T1t	2018	Chabos wissen wer der Babo ist	Haftbefehl
+1250": "spotify:track:66kQ7wr4d2LwwSjr7HXcyr	2018	All The Stars	Kendrick Lamar, SZA
+1251": "spotify:track:3GCdLUSnKSMJhs4Tj6CV3s	2018	8 Letters	Why Don’t We
+1252": "spotify:track:4zRZAmBQP8vhNPf9i9opXt	2019	110	Capital Bra, Samra, LEA
+1253": "spotify:track:67ojvEGRPAUCOohuMPqoRC	2019	Dance Monkey	Tones and I
+1254": "spotify:track:2XU0oxnq2qxCpomAAuJY8K	2019	What am I	Why Don’t We
+1255": "spotify:track:33hbDGa2hH9hP9JXw04GFC	2019	Wallah Habibi	Julien Bam, Kelly, Vincent Lee
+1256": "spotify:track:1BxfuPKGuaTgP7aM0Bbdwr	2019	Cruel Summer	Taylor Swift
+1257": "spotify:track:2vXKRlJBXyOcvZYTdNeckS	2019	Lost in the Fire	Gesaffelstein, The Weeknd
+1258": "spotify:track:3KkXRkHbMCARz0aVfEt68P	2019	Sunflower	Post Malone, Swae Lee
+1259": "spotify:track:7xQAfvXzm3AkraOtGPWIZg	2019	Wow.	Post Malone
+1260": "spotify:track:29TPjc8wxfz4XMn21O7VsZ	2020	Sky	Playboi Carti
+1261": "spotify:track:0gThlZWwZWkDqRKGOz2CN1	2020	Angels Sippen	Symba
+1262": "spotify:track:49gruEYzuJZoy4R2q5xVlT	2020	levitating	Dua Lipa ft. DaBaby
+1263": "spotify:track:1tkg4EHVoqnhR6iFEXb60y	2020	What You Know Bout Love	Pop Smoke
+1264": "spotify:track:1DT8DekueUSz9vVYpBbwsX	2020	Emotions	Ufo 361
+1265": "spotify:track:7gVwgc8b3XnO87TpmXXFA5	2020	Diva	The Kid LAROI, Lil Tecca
+1266": "spotify:track:5rZlwNFl01HqLWBQGryKSm	2020	Mood Swings	Pop Smoke, Lil Tjay
+1267": "spotify:track:26XaOsDMbl0e1cVKYfkz6w	2020	Falling	Trevor Daniel
+1268": "spotify:track:4hSJUp6k7QeHLxU32MrLIU	2021	Ohne Dich	Kasimir 1441, Badmomzjay, Wildbwoys
+1269": "spotify:track:5OqIKA0ETzvxocl2IS7nV6	2021	Extasy	187 Straßenbande, Frauenarzt
+1270": "spotify:track:2H7jZg2HliuQhZjfBblLrZ	2021	Sommergewitter	Pashanim
+1271": "spotify:track:5wANPM4fQCJwkGd4rN57mH	2021	drivers license	Olivia Rodrigo
+1272": "spotify:track:6I3mqTwhRpn34SLVafSH7G	2021	Ghost	Justin Bieber
+1273": "spotify:track:5GhJIMWAw0uMLgkdbt6uMz	2021	Falllin’ (Adrenaline)	Why Don’t We
+1274": "spotify:track:2etHQJxIbV0soyPhelVs9Y	2021	Best Friend	Saweetie, Doja Cat
+1275": "spotify:track:4cG7HUWYHBV6R6tHn1gxrl	2021	Friday	Riton, Nightcrawlers, Mufasa & Hypeman, Mufasa, Dopamine
+1276": "spotify:track:1W1N3usYjgI3XGQA0iX9Vq	2022	Sehnsucht	Miksu / Macloud, T-LOW
+1277": "spotify:track:038awuS65sn5GQxlpJGkqj	2022	Sternzeichen Arrogant	Rosc
+1278": "spotify:track:3z3thFt7kVIkfY9PRdIOcJ	2022	Glücklich	Cro, 01099
+1279": "spotify:track:2sFsvaMRe8PKo5AFdBE9qC	2022	Auf & Ab	Montez
+1280": "spotify:track:3kgt8Ys78I6GBZlQrWqZiA	2022	Nachts wach	Miksu / Macloud, makko
+1281": "spotify:track:0sBJA2OCEECMs0HsdIQhvR	2022	West Coast	OneRepublic
+1282": "spotify:track:59CfNbkERJ3NoTXDvoURjj	2022	Boyfriend	Dove Cameron
+1283": "spotify:track:3a0F2N6rXJSibQTp77xH4f	2022	Ohne Benzin	Domiziana
+1284": "spotify:track:18asYwWugKjjsihZ0YvRxO	2023	The Motto	Ava Max, Tiësto
+1285": "spotify:track:6sEoli2139kRG8Q7LfpHEY	2023	Mann vom Fach	Levin Liam, Miksu/Macloud
+1286": "spotify:track:2FiJGvN3fiXMwms9IftNV0	2023	LiEBE AUF DER RÜCKBANK	FiNCH, TREAM
+1287": "spotify:track:1XBYiRV30ykHw5f4wm6qEn	2023	NIGHTS LIKE THIS	The Kid LAROI
+1288": "spotify:track:1k2pQc5i348DCHwbn5KTdc	2023	Pink Pony Club	Chappell Roan
+1289": "spotify:track:741UUVE2kuITl0c6zuqqbO	2023	Barbie World 	Nicki Minaj, Ice Spice, Aqua
+1290": "spotify:track:5w40ZYhbBMAlHYNDaVJIUu	2023	Chemical	Post Malone
+1291": "spotify:track:2VOZniNxFIDl8ydLltrMNb	2023	Escapism.	RAYE, 070 Shake
+1292": "spotify:track:19RybK6XDbAVpcdxSbZL1o	2024	Apple	Charli xcx
+1293": "spotify:track:0LMwmV37RCmBO2so0szAFs	2024	Whatever	Kygo, Ava Max
+1294": "spotify:track:5G2f63n7IPVPPjfNIGih7Q	2024	Taste	Sabrina Carpenter
+1295": "spotify:track:0f6pPvxwkvBFaIpfhAQHgt	2024	Schau mal herein	Helene Fischer, Florian Silbereisen
+1296": "spotify:track:6GxlYRWW4RJxpsnDtaYcZa	2024	agavendicksaft	Sampagne
+1297": "spotify:track:4vXM3vMsSr8eFcK8HKTcJq	2024	BIKINI GRELL	Ikkimel, Robbensohn
+1298": "spotify:track:7221xIgOnuakPdLqT0F3nP	2024	I had Some Help	Post Malone, Morgan Wallen
+1299": "spotify:track:2sUfEZZlQHI4dkFFG9Gy3H	2024	Bundeswehr	Souly
+1300": "spotify:track:6qqrTXSdwiJaq8SO0X2lSe	2025	Ordinary	Alex Warren
+1301": "spotify:track:1musbempyJAw5gfSKZHXP9	2025	Anxiety	Doechii
+1302": "spotify:track:2yWlGEgEfPot0lv3OAjuG3	2025	Just Keep Watching	Tate McRae
+1303": "spotify:track:6j8OrKDQHxXakjA7KKbWzj	2025	tau mich auf	Zartmann
+1304": "spotify:track:7n8ySJro2yiIs1uvmDVTPu	2025	it girl	Shirin David, Sampagne
+1305": "spotify:track:0GRc3eGTg8HBdWLRGYgqIc	2025	Azizam	Ed Sheeran
+1306": "spotify:track:3AWDeHLc88XogCaCnZQLVI	2025	Cry For Me	The Weeknd
+1307": "spotify:track:7qkjnUILqzn2GjkZfRcH7Z	2025	alle märchen sind gelogen	jolle
+  }			
