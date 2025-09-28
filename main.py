@@ -75,7 +75,7 @@ async def camera():
 async def get_token():
     tokens = user_tokens.get('default')
     if not tokens:
-        return JSONResponse({"error": "Nicht eingeloggt"}, status_code=400)
+        raise RedirectResponse(url="/login")
 
     # Access Token prüfen / erneuern
     access_token = tokens['access_token']
