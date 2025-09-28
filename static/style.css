@@ -92,3 +92,15 @@ p h1{
     outline-offset: 3px;
     text-decoration: none;
 }
+
+#login-button {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 2;
+}
