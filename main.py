@@ -1,9 +1,8 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, Depends
 from fastapi.responses import RedirectResponse, JSONResponse
-import requests, base64, os
+import requests, base64, os, json
 from dotenv import load_dotenv
 from fastapi.staticfiles import StaticFiles
-import json
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -17,13 +16,16 @@ SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize"
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
 SCOPE = "user-read-playback-state user-modify-playback-state streaming"
 
-# In-memory storage (später DB)
+# In-Memory Storage (später DB)
 user_tokens = {}
 
+# ---- Login-Check Dependency ----
 def require_login():
     tokens = user_tokens.get('default')
     if not tokens:
-        raise RedirectResponse(url="/login")
+        # nicht eingeloggt → auf Login-Seite umleiten
+        # wirft keine Exception, sondern sendet Response:
+        raise RedirectResponse("/static/login.html")
     return tokens
 
 @app.get("/")
@@ -70,24 +72,16 @@ async def callback(request: Request):
 
     return RedirectResponse("/camera")
 
-
 @app.get("/camera")
-async def camera():
+async def camera(tokens: dict = Depends(require_login)):
     return RedirectResponse("/static/kamera.html")
 
-
 @app.get("/auth/token")
-async def get_token():
-    tokens = user_tokens.get('default')
-    if not tokens:
-        return JSONResponse({"error": "Nicht eingeloggt"}, status_code=400)
-
+async def get_token(tokens: dict = Depends(require_login)):
     # Access Token prüfen / erneuern
     access_token = tokens['access_token']
     refresh_token = tokens['refresh_token']
 
-    # Optional: hier prüfen ob abgelaufen (vereinfachtes Beispiel)
-    # Immer erneuern, falls Probleme
     auth_header = base64.b64encode(f"{CLIENT_ID}:{CLIENT_SECRET}".encode()).decode()
     headers = {"Authorization": f"Basic {auth_header}"}
     data = {
@@ -103,7 +97,7 @@ async def get_token():
     return JSONResponse({"access_token": access_token})
 
 @app.get("/karte/{karte_id}")
-async def get_track(karte_id: str):
+async def get_track(karte_id: str, tokens: dict = Depends(require_login)):
     try:
         with open("songs.json", "r") as f:
             karte_map = json.load(f)
